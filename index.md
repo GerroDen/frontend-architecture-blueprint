@@ -21,33 +21,32 @@ This is my bleprint for an architecture that I think works with all modern front
 # Requirements to my Architecture
 I have some requirements to my architecture which explains my intent of the structure:
 * Reusability of UI elements,
-* simplicity by using known architecture paterns,
+* simplicity by using known architecture patterns,
 * seperation of concerns in UI, behaviour, state management and features, and
 * definition of domains.
 
 These requirements do not look new to software developers, but I see that they are often missing in frontends.
 
-# My Architecture
-> TODO
-
-## Separation of Domains
 DDD is not only applicable on a feature level, but also on a non functional level.
 Like it is possible to define a domain for security or tracking, I see it is also possible for UI elements.
 > TODO
 
-### Separation of Pure UI and Feature Integrating UI
+## Separation of Pure UI and Feature Integrating UI
 > TODO
 
-### Separation of Views from UI Components
+## Separation of Views from UI Components
 > TODO
 
-### Separation of Feature State and UI State
+## Separation of Feature State and UI State
 > TODO
 
-### Separation of Global State and Component State
+## Separation of Global State and Component State
 > TODO
 
-### Separation of UI and Behaviour
+## Separation of UI and Behaviour
+> TODO
+
+# My Architecture
 > TODO
 
 ## Routing
@@ -61,11 +60,3 @@ Like it is possible to define a domain for security or tracking, I see it is als
 
 ## Feature integrating UI
 > TODO
-
-# References
-* https://flutter.dev
-* https://vuejs.org
-* https://reactjs.org
-* https://svelte.dev
-* https://angular.io
-
