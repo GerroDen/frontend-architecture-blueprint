@@ -2,8 +2,11 @@
 The whole architecture is highly opinionated to my personal knowledge and experience.
 And thus this is only written from my point of view.
 Because languages, frameworks and my opinion changes over time, this architecture is work in progress.
-I do **not** claim that this works for everyone and every project, but it works for all projects that i encountered so far.
+I *do not* claim that this works for everyone and every project, but it works for all projects that i encountered so far.
 I will not go in depth with all aspects but want to provide a top level architecture which allows to be extended by other architecture patterns for different needs.
+The approach might have a lot in common with other approaches.
+I *do not* claim to reinvent the frontend architecture.
+I merely define my personal blueprint.
 
 # Motivation
 Before I discuss my blueprint, I have to introduce myself, and why I made up this architecture blueprint.
