@@ -35,10 +35,13 @@ Like it is possible to define a domain for security or tracking, I see it is als
 ### Separation of Pure UI and Feature Integrating UI
 > TODO
 
-### Separation of Global State and UI State
+### Separation of Views from UI Components
 > TODO
 
-### Separation of Views from UI Components
+### Separation of Feature State and UI State
+> TODO
+
+### Separation of Global State and Component State
 > TODO
 
 ### Separation of UI and Behaviour
