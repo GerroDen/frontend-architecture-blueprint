@@ -32,23 +32,26 @@ DDD is not only applicable on a feature level, but also on a non functional leve
 Like it is possible to define a domain for security or tracking, I see it is also possible for UI elements.
 > TODO
 
-## Routing
+### Separation of Pure UI and Feature Integrating UI
 > TODO
 
-## Pure UI
+### Separation of Global State and UI State
+> TODO
+
+### Separation of Views from UI Components
+> TODO
+
+### Separation of UI and Behaviour
+> TODO
+
+## Routing
 > TODO
 
 ## Client API
 > TODO
 
+## Pure UI
+> TODO
+
 ## Feature integrating UI
-> TODO
-
-## Separation of Global State and UI State
-> TODO
-
-## Separation of Views from UI Components
-> TODO
-
-## Separation of UI and Behaviour
 > TODO
