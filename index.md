@@ -58,3 +58,11 @@ Like it is possible to define a domain for security or tracking, I see it is als
 
 ## Feature integrating UI
 > TODO
+
+# References
+* https://flutter.dev
+* https://vuejs.org
+* https://reactjs.org
+* https://svelte.dev
+* https://angular.io
+
