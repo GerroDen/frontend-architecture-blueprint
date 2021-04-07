@@ -18,6 +18,9 @@ Modern frontend frameworks provide a hugh step forward to build efficient UI cli
 During work within both worlds I made myself a mental model, how the frontend works best for myself by combining all the aspects that I learned software development.
 This is my bleprint for an architecture that I think works with all modern frontend frameworks to build a full functional fat or slim UI client for web and mobile.
 
+# TL;DR Show me a Diagram!
+![Architecture Blueprint Diagram](frontend-architecture-blueprint.svg)
+
 # Requirements to my Architecture
 I have some requirements to my architecture which explains my intent of the structure:
 * Reusability of UI elements,
