@@ -32,13 +32,38 @@ These requirements do not look new to software developers, but I see that they a
 
 DDD is not only applicable on a feature level, but also on a non functional level.
 Like it is possible to define a domain for security or tracking, I see it is also possible for UI elements.
-> TODO
 
 ## Separation of Pure UI and Feature Integrating UI
-> TODO
+When using a UI library, all UI elements are independent and free of app features.
+Which is pretty obvious because they were build for anything and it's unable to know all appliances.
+
+When building your own app it is very useful to build your own little UI library.
+This might sound like a great deal.
+But actually, it is already achieved by a shift of domains.
+While the feature implementation focuses on the app features, the UI library focuses on the UI itself without knowing anything of the app.
+Each little UI element might have its own little featureset that is completely unaware of its use in the app while the feature integrating UI places those indepoendent UI elements within a context of the app feature.
+Naming of variables, classes and parameters are focused on the UI element in pure UI and on the application context on the feature UI.
+
+As a little example, imagine to view the `Avatar` of a user.
+With the little trick of building a pure UI component which displays any image in the style of the `Avatar` you want to show, you might also want to implement a component which loads that picture, maybe caches it and displays it as that same `Avatar`.
+Instead of only building up the integrated version of that `Avatar`, there are 2 components which give a lot of advantages.
+
+The highest advantage of building a pure UI is, that anything can be contextfree developed, well documented, bugfixed and visually tested for itself with a styleguide.
+Styleguides can be automatically generated with each build in the CI pipeline and are called living styleguides, because their styling is from productive code instead of a separate documentation.
+Well known styleguides for web frontend are Styleguidist or StoryBook.
+Similar styleguides are available for ReactNative, Flutter, Ionic and other mobile libaries.
+
+Visual testing is considered the most valuable testing of UI.
+UX is almost impossible to test automatically by code alone, which leads to no way around visual testing in the end.
+And instead of the need to test all edge cases in the integrated application UI, it is easier to mock all thinkable edge cases within a styleguide and test them that way.
+This actually is similar to building unit tests for the backend, which also cover all edgecases for that unit of code, but this time this is for the UI.
+It also gives the opportunity to test out new behaviour of certain UI elements for itself like dropdowns or autocomplete, or the opportunity to fix layout issues on multiple platforms.
 
 ## Separation of Views from UI Components
-> TODO
+In every app there might be UI elements that are definitely only visible once on the screen like a page and some that are definitely visible multiple times on the same screen.
+For development it always helps to identify and know what the element is made for.
+Documentation might help, but it is quite quicker to distinguish between them by separate naming or module conventions like different suffix or a subdirectory.
+Each one of them also needs a different documentation style: While UI components stand for themselves, view components often might describe specific layouting with a lot of placeholders to place UI elements.
 
 ## Separation of Feature State and UI State
 > TODO
@@ -50,7 +75,8 @@ Like it is possible to define a domain for security or tracking, I see it is als
 > TODO
 
 # My Architecture
-> TODO
+Back to the diagram.
+![Architecture Blueprint Diagram](frontend-architecture-blueprint.svg)
 
 ## Routing
 > TODO
