@@ -24,9 +24,9 @@ This is my bleprint for an architecture that I think works with all modern front
 # Requirements to my Architecture
 I have some requirements to my architecture which explains my intent of the structure:
 * Reusability of UI elements,
-* simplicity by using known architecture patterns,
-* seperation of concerns in UI, behaviour, state management and features, and
-* definition of domains.
+* Simplicity by using known architecture patterns,
+* Seperation of concerns in UI, behaviour, state management and features, and
+* Definition of domains.
 
 These requirements do not look new to software developers, but I see that they are often missing in frontends.
 
