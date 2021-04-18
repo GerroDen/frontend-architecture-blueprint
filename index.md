@@ -76,6 +76,7 @@ Each one of them also needs a different documentation style: While UI components
 
 # My Architecture
 Back to the diagram.
+
 ![Architecture Blueprint Diagram](frontend-architecture-blueprint.svg)
 
 ## Routing
