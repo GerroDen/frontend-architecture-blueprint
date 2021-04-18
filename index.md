@@ -38,7 +38,7 @@ Actually in my opinion, it does not matter.
 Choose one and stick to it and make it clearly visible to future developers.
 It might actually sometimes be useful to choose other approaches for different features in an app because it saves a lot of boilerplate or it would simply is too confusing.
 Some frameworks actually dictate or prefer a certain kind approach, like Angular strictly prefers MVC.
-In web component with React, Vue or Svelte it is your choice.
+In web component with React, Vue or Svelte it is your choice how much you want to break down your implementation.
 
 ## Separation of Pure UI and Feature Integrating UI
 When using a UI library, all UI elements are independent and free of app features.
