@@ -33,7 +33,7 @@ These requirements do not look new to software developers, but I see that they a
 DDD is not only applicable on a feature level, but also on a non functional level.
 Like it is possible to define a domain for security or tracking, I see it is also possible for UI elements.
 
-## What about MVC, MVP, MVVM?
+## What about Model View Control (MVC), Model View Presenter (MVP) or Model View ViewModel (MVVM)?
 Actually in my opinion, it does not matter.
 Choose one and stick to it and make it clearly visible to future developers.
 It might actually sometimes be useful to choose other approaches for different features in an app because it saves a lot of boilerplate or it would simply is too confusing.
