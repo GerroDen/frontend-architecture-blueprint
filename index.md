@@ -33,6 +33,13 @@ These requirements do not look new to software developers, but I see that they a
 DDD is not only applicable on a feature level, but also on a non functional level.
 Like it is possible to define a domain for security or tracking, I see it is also possible for UI elements.
 
+## What about MVC, MVP, MVVM?
+Actually in my opinion, it does not matter.
+Choose one and stick to it and make it clearly visible to future developers.
+It might actually sometimes be useful to choose other approaches for different features in an app because it saves a lot of boilerplate or it would simply is too confusing.
+Some frameworks actually dictate or prefer a certain kind approach, like Angular strictly prefers MVC.
+In web component with React, Vue or Svelte it is your choice.
+
 ## Separation of Pure UI and Feature Integrating UI
 When using a UI library, all UI elements are independent and free of app features.
 Which is pretty obvious because they were build for anything and it's unable to know all appliances.
