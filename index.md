@@ -1,4 +1,7 @@
-# Disclaimer
+#Frontend Architecture Blueprint
+
+**Disclaimer**
+
 The whole architecture is highly opinionated to my knowledge and experience.
 And thus this is only written from my point of view.
 Because languages, frameworks and my opinion change over time, this architecture is a work in progress.
